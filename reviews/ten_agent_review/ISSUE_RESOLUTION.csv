@@ -1,0 +1,22 @@
+id,severity,reviewer_ids,finding,status,evidence_or_action
+R01,Medium,"1,4,6",Scoring accepts invalid numeric domains,Resolved,Domain guards and negative/boundary tests
+R02,Medium,6,Whitespace TotalCharges mismatch,Resolved,Normalize blank numeric strings; missing parity test
+R03,Medium,2,All-assay-missing wine accepted,Resolved,Reject total missingness; count partial numeric missingness
+R04,Medium,"1,4",Evaluated policy differs from delivered cap,Resolved,Canonical synchronized function; capped metrics/gate/group audit; shifted-batch tests
+R05,Medium,5,Imported dependencies can remain stale after pip install,Resolved,Require restart when replaced modules were imported; loaded-version check
+R06,Medium,1,Business pilot and project plan too vague,Resolved as proposed plan,Explicit hypothetical pilot/decision owner and milestone table; real pilot pending
+R07,Medium,7,Telco educational provenance understated,Resolved,IBM sample context and source past-month label; prospective timing unknown
+R08,Medium,8,Video outline implies automated unit verification,Resolved,Separate domain guards from manual unit verification
+R09,Low,"1,2,7",Incomplete field dictionaries,Resolved,Complete Telco and source-paper-verified wine dictionaries
+R10,Low,4,Low bootstrap count and regression resample filter,Resolved,"2000 repeats, seed/repeats recorded; regression draws not class-filtered"
+R11,Low,"3,8",Conditional clustering stability and incomplete audit exports,Resolved,Explicit scope plus null/assignment/center/Age tables
+R12,Low,"4,8",Rare wine errors insufficiently visible,Resolved,Actual score 3/4/8 errors with counts
+R13,Low,"2,8",Internal holdout called external validation,Resolved,Held-out validation terminology
+R14,Low,5,Notebook output collisions and artifact export,Resolved,"Project-specific ROOT, corrected fallback path and export cell"
+R15,Low,7,Missing original metadata retrieval timestamp,Partially resolved,Actual local revalidation timestamp added; original timestamp/raw metadata not reconstructed
+R16,Low,5,Latest source endpoint may change,Documented limitation retained,Hash fails visibly; documented recovery of recorded historical version
+R17,Low,10,Rerun overwrites nonreproducible verification evidence,Resolved,Separate records plus shipped reproducible verification command
+R18,Low,9,Incorrect optional SAS evidence path,Resolved,Corrected checklist path
+R19,High submission requirement,"3,9",Actual Claude/GPT-5 per-section critique rounds absent,Pending external evidence,Ten current-model agent reviews do not satisfy named-model requirement
+R20,High submission requirement,9,Student/manual/publication evidence absent,Pending student/publication action,No false completion claim; links/checklists remain pending
+R21,Medium submission requirement,"1,9",Instructor Google Slides template inaccessible,Pending source access/cross-check,General methodology coverage reviewed; exact template not certified

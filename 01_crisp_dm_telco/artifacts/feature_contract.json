@@ -1,0 +1,52 @@
+{
+  "required_columns": [
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "numeric": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical": [
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "excluded": [
+    "customerID",
+    "Churn",
+    "gender",
+    "SeniorCitizen"
+  ],
+  "imputation": "Training-fold median and most frequent category",
+  "scaling": "Training-fold standardization",
+  "dictionary": "DATA_DICTIONARY.md",
+  "numeric_domain": "Nonnegative charges and integer nonnegative tenure; missing numeric values imputed; blank numeric strings are missing"
+}

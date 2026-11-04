@@ -1,0 +1,20 @@
+{
+  "required_columns": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "excluded": [
+    "CustomerID",
+    "Gender",
+    "Age"
+  ],
+  "distance": "Euclidean after discovery-only standardization",
+  "scale_mean": [
+    60.285714285714285,
+    51.364285714285714
+  ],
+  "scale_sd": [
+    27.170174223713378,
+    26.217009395288645
+  ]
+}

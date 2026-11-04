@@ -1,0 +1,18 @@
+{
+  "selected_family": "KMeans",
+  "k": 5,
+  "discovery_silhouette": 0.5492329477558924,
+  "confirmation_silhouette": 0.5558887713165489,
+  "median_subsample_ARI": 0.9805096092651059,
+  "min_subsample_ARI": 0.9405868497379906,
+  "null_silhouette_median": 0.3857295218065189,
+  "null_silhouette_95pct": [
+    0.36094914223293434,
+    0.41408803650409204
+  ],
+  "age_sensitivity_ARI": 0.5725433361828417,
+  "retrospective_gate_passed": true,
+  "stability_scope": "Assignments conditional on the selected model family and k; full family/k search is not repeated",
+  "null_reference_scope": "Empirical 30-draw diagnostic range; not a confidence interval or p-value",
+  "production_approved": false
+}

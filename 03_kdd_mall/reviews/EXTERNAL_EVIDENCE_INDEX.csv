@@ -1,0 +1,13 @@
+section,round,required_model,actual_model,input_hash,response_file,revision_file,status
+Domain understanding and Selection,1,Claude or GPT-5,,,,,PENDING
+Domain understanding and Selection,2,Claude or GPT-5,,,,,PENDING
+Preprocessing,1,Claude or GPT-5,,,,,PENDING
+Preprocessing,2,Claude or GPT-5,,,,,PENDING
+Transformation,1,Claude or GPT-5,,,,,PENDING
+Transformation,2,Claude or GPT-5,,,,,PENDING
+Data mining,1,Claude or GPT-5,,,,,PENDING
+Data mining,2,Claude or GPT-5,,,,,PENDING
+Interpretation and evaluation,1,Claude or GPT-5,,,,,PENDING
+Interpretation and evaluation,2,Claude or GPT-5,,,,,PENDING
+Knowledge use,1,Claude or GPT-5,,,,,PENDING
+Knowledge use,2,Claude or GPT-5,,,,,PENDING

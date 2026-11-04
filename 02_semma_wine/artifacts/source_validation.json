@@ -1,0 +1,8 @@
+{
+  "source": "uciml/red-wine-quality-cortez-et-al-2009",
+  "sha256": "d6a0d9bd24806944818795f22500c46cb6424cbff517aacda36595d3ed9b2daa",
+  "raw_shape": [
+    1599,
+    12
+  ]
+}

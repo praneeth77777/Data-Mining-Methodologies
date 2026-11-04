@@ -1,0 +1,22 @@
+{
+  "required_columns": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "target": "quality",
+  "target_interpretation": "Ordinal 0-10 sensory score modeled as a regression approximation",
+  "duplicates": "Remove exact rows; identical predictors kept within one partition",
+  "outliers": "Flag IQR extremes on training data; retain without evidence of measurement error",
+  "dictionary": "DATA_DICTIONARY.md",
+  "missingness_policy": "Reject all-assay-missing rows; impute partial missingness and expose numeric_missing_count",
+  "domain_policy": "Nonnegative concentrations; positive density; pH 0-14; alcohol 0-100. These are conservative demo input guards, not laboratory validation or unit detection."
+}

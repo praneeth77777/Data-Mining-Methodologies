@@ -1,0 +1,13 @@
+{
+  "source": "https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python",
+  "download_endpoint": "https://www.kaggle.com/api/v1/datasets/download/vjchoudhary7/customer-segmentation-tutorial-in-python",
+  "filename": "Mall_Customers.csv",
+  "sha256": "416a4f62a8f33841a16e1db5297f0e05d3b65b05e73632cedae58e739e1e1f77",
+  "dataset_version": 1,
+  "license_as_listed_by_kaggle": "Other (specified in description)",
+  "raw_redistribution": "Complete source CSV excluded from archive; five-row source-derived scoring example included.",
+  "original_retrieval_timestamp": "Not retained in original generation; not reconstructed",
+  "local_bytes_verified_at_utc": "2026-11-04T00:51:13.778771+00:00",
+  "metadata_basis": "Kaggle listing observed during original generation; raw metadata response not retained",
+  "historical_version_recovery": "The loader fails on changed bytes. Obtain the recorded historical Kaggle version if available; otherwise obtain the exact named CSV and verify this hash before reuse. Never disable the check to accept a newer source silently."
+}

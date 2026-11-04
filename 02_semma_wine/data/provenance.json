@@ -1,0 +1,13 @@
+{
+  "source": "https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009",
+  "download_endpoint": "https://www.kaggle.com/api/v1/datasets/download/uciml/red-wine-quality-cortez-et-al-2009",
+  "filename": "winequality-red.csv",
+  "sha256": "d6a0d9bd24806944818795f22500c46cb6424cbff517aacda36595d3ed9b2daa",
+  "dataset_version": 2,
+  "license_as_listed_by_kaggle": "Database: Open Database, Contents: Database Contents",
+  "raw_redistribution": "Complete source CSV excluded from archive; five-row source-derived scoring example included.",
+  "original_retrieval_timestamp": "Not retained in original generation; not reconstructed",
+  "local_bytes_verified_at_utc": "2026-11-04T00:51:13.778869+00:00",
+  "metadata_basis": "Kaggle listing observed during original generation; raw metadata response not retained",
+  "historical_version_recovery": "The loader fails on changed bytes. Obtain the recorded historical Kaggle version if available; otherwise obtain the exact named CSV and verify this hash before reuse. Never disable the check to accept a newer source silently."
+}

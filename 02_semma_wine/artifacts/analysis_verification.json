@@ -1,0 +1,7 @@
+{
+  "chemistry_group_overlap": 0,
+  "serialized_predictions_match": true,
+  "finite_predictions": true,
+  "student_manual_review": "PENDING",
+  "colab_runtime_execution": "PENDING; analysis execution does not establish Colab execution"
+}

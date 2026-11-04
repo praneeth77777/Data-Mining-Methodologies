@@ -1,0 +1,8 @@
+{
+  "disjoint_splits": true,
+  "unique_customer_ids": true,
+  "serialized_predictions_match": true,
+  "all_probabilities_valid": true,
+  "student_manual_review": "PENDING",
+  "colab_runtime_execution": "PENDING; analysis execution does not establish Colab execution"
+}

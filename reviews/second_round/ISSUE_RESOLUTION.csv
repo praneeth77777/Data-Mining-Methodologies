@@ -1,0 +1,7 @@
+id,severity,reviewers,finding,status,evidence
+S01,Medium / P2,6,Ragged CSV or ambiguous header can silently shift features,Resolved,Strict loader and structural fixtures; independent reviewer recheck passed
+S02,Medium source interpretation,7,Identical rows asserted to be duplicate physical wines,Resolved,Qualified as frequency-weighting policy; original source reviewed; frozen cohort unchanged
+S03,Low,"2,7,8",Required columns conflated with complete assay values,Resolved,"Dictionary distinguishes required columns, partial missingness and all-missing rejection"
+S04,Low,8,Initial Telco gate wording omitted final capacity cap,Resolved,Gate explicitly refers to final capacity-limited queue
+S05,Low,5,Existing notebook export template not synchronized,Resolved,Replace existing export cell each sync; isolated fixture passed
+S06,Low,5,Missing scorer section not rejected during sync,Resolved,Explicit missing/malformed section errors; isolated fixtures passed

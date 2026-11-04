@@ -1,0 +1,24 @@
+{
+  "raw_n": 1599,
+  "exact_duplicates_removed": 240,
+  "unique_n": 1359,
+  "missing": {
+    "fixed acidity": 0,
+    "volatile acidity": 0,
+    "citric acid": 0,
+    "residual sugar": 0,
+    "chlorides": 0,
+    "free sulfur dioxide": 0,
+    "total sulfur dioxide": 0,
+    "density": 0,
+    "pH": 0,
+    "sulphates": 0,
+    "alcohol": 0,
+    "quality": 0
+  },
+  "train_n": 815,
+  "validation_n": 272,
+  "test_n": 272,
+  "chemistry_groups": 1359,
+  "group_overlap": 0
+}

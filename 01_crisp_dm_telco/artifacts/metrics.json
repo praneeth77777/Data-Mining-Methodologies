@@ -1,0 +1,33 @@
+{
+  "selected_model": "{'model': RandomForestClassifier(max_depth=10, n_estimators=120, n_jobs=1,\n                       random_state=42), 'model__min_samples_leaf': 15}",
+  "threshold": 0.3823721103201337,
+  "test_n": 1409,
+  "average_precision": 0.6296712898679541,
+  "baseline_AP": 0.2654364797728886,
+  "test_prevalence": 0.2654364797728886,
+  "ROC_AUC": 0.8323206489446898,
+  "Brier": 0.14055710330415724,
+  "precision": 0.5819477434679335,
+  "recall": 0.6550802139037433,
+  "F1": 0.6163522012578616,
+  "contact_fraction": 0.29879347054648686,
+  "TN": 859,
+  "FP": 176,
+  "FN": 129,
+  "TP": 245,
+  "top30_recall": 0.6550802139037433,
+  "top30_lift": 2.1872227995032567,
+  "AP_bootstrap_95pct": [
+    0.5781768312756883,
+    0.6826855442510635
+  ],
+  "retrospective_gate_passed": true,
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 42,
+  "policy": "Frozen threshold followed by floor(0.30*n) cap with stable risk ranking",
+  "threshold_only_contact_fraction": 0.29879347054648686,
+  "threshold_only_recall": 0.6550802139037433,
+  "threshold_only_precision": 0.5819477434679335,
+  "policy_equals_threshold_on_test": true,
+  "production_approved": false
+}

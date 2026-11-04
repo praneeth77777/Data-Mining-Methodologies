@@ -1,0 +1,5 @@
+{
+  "goal": "Generate interpretable hypotheses about customer segments",
+  "criteria": "Discovery silhouette maximum with minimum cluster share 5%; confirmation silhouette >0.40 and median subsample ARI >0.80",
+  "scope": "Convenience sample; no marketing outcomes; spending-score construction not independently documented"
+}

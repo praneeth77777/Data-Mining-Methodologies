@@ -1,0 +1,13 @@
+section,round,required_model,actual_model,input_hash,response_file,revision_file,status
+Sample,1,Claude or GPT-5,,,,,PENDING
+Sample,2,Claude or GPT-5,,,,,PENDING
+Explore,1,Claude or GPT-5,,,,,PENDING
+Explore,2,Claude or GPT-5,,,,,PENDING
+Modify,1,Claude or GPT-5,,,,,PENDING
+Modify,2,Claude or GPT-5,,,,,PENDING
+Model,1,Claude or GPT-5,,,,,PENDING
+Model,2,Claude or GPT-5,,,,,PENDING
+Assess,1,Claude or GPT-5,,,,,PENDING
+Assess,2,Claude or GPT-5,,,,,PENDING
+Delivery extension,1,Claude or GPT-5,,,,,PENDING
+Delivery extension,2,Claude or GPT-5,,,,,PENDING

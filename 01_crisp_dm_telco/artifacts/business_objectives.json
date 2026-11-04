@@ -1,0 +1,7 @@
+{
+  "decision": "Rank a monthly review queue for retention staff",
+  "capacity_fraction": 0.3,
+  "minimum_recall": 0.5,
+  "success": "Test average precision exceeds prevalence and recall >= 0.50 at a validation-frozen threshold",
+  "scope": "Retrospective demonstration; no randomized retention outcomes or timestamps"
+}

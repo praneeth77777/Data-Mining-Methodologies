@@ -1,0 +1,1 @@
+Store real Claude/GPT-5 review exports and revision evidence here. No external reviews are included. Use section-01-round-1.md, section-01-round-2.md, and corresponding revision files. Preserve model/date/input hashes and update EXTERNAL_EVIDENCE_INDEX.csv.

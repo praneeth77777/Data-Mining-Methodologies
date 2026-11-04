@@ -1,0 +1,35 @@
+{
+  "project": "02_semma_wine",
+  "status": "passed",
+  "executed_code_cells": 13,
+  "inline_figures": 4,
+  "script_notebook_parity": true,
+  "embedded_scorer_parity": true,
+  "saved_pipeline_parity": true,
+  "schema_missing_and_invalid_rejected": true,
+  "domain_checks": [
+    "negative concentrations",
+    "positive density",
+    "pH demo range",
+    "alcohol percent range",
+    "all-missing rejected",
+    "partial missing counted"
+  ],
+  "csv_structure_checks": [
+    "over-wide rejected",
+    "under-wide rejected",
+    "duplicate header rejected",
+    "empty header rejected",
+    "unterminated quote rejected",
+    "valid quoted extra column preserves outputs"
+  ],
+  "checked_hashes": {
+    "project.ipynb": "ea18d8c6b8f3b40d8ab94b15ebc9eeb9bf54942bc105330af66075adf90dab24",
+    "analysis.py": "22d226b76b332179b8a58c1e66c14c9d70fe164952908d5fa269c7870b2477cf",
+    "score.py": "1d9e791a1e492bb552af4bb1808bd7319a17a66a633cc450b58809ec64aec07b",
+    "artifacts/model.joblib": "9541bb7e8fbc6ce607bec7f031ac4d329633675669db683bd619c498863a5661",
+    "artifacts/metrics.json": "453cbcc35c6f91257b62f7b699df8acd8b62065dddb70164bb5331551061b1db"
+  },
+  "google_colab_execution": "PENDING",
+  "student_manual_verification": "PENDING"
+}

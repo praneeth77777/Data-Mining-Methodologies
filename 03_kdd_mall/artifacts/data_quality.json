@@ -1,0 +1,15 @@
+{
+  "rows": 200,
+  "columns": 5,
+  "discovery_n": 140,
+  "confirmation_n": 60,
+  "missing": {
+    "CustomerID": 0,
+    "Gender": 0,
+    "Age": 0,
+    "Annual Income (k$)": 0,
+    "Spending Score (1-100)": 0
+  },
+  "duplicate_ids": 0,
+  "duplicate_feature_rows": 4
+}

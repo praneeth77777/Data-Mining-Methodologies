@@ -1,0 +1,18 @@
+{
+  "selected_model": "{'model': RandomForestRegressor(n_estimators=160, n_jobs=1, random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 2}",
+  "test_n": 272,
+  "validation_MAE": 0.5009907595850839,
+  "MAE": 0.5336887528448879,
+  "baseline_MAE": 0.7058823529411765,
+  "RMSE": 0.6843015092564279,
+  "R2": 0.3879949686380525,
+  "within_one_point": 0.8786764705882353,
+  "MAE_bootstrap_95pct": [
+    0.48167435903397815,
+    0.5906628283474848
+  ],
+  "retrospective_gate_passed": true,
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 42,
+  "production_approved": false
+}

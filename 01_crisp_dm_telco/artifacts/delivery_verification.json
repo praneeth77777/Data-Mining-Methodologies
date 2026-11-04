@@ -1,0 +1,35 @@
+{
+  "project": "01_crisp_dm_telco",
+  "status": "passed",
+  "executed_code_cells": 13,
+  "inline_figures": 3,
+  "script_notebook_parity": true,
+  "embedded_scorer_parity": true,
+  "saved_pipeline_parity": true,
+  "schema_missing_and_invalid_rejected": true,
+  "domain_checks": [
+    "negative tenure/charges",
+    "fractional tenure",
+    "whitespace/missing parity",
+    "shifted queue cap",
+    "stable tie order",
+    "small-batch cap"
+  ],
+  "csv_structure_checks": [
+    "over-wide rejected",
+    "under-wide rejected",
+    "duplicate header rejected",
+    "empty header rejected",
+    "unterminated quote rejected",
+    "valid quoted extra column preserves outputs"
+  ],
+  "checked_hashes": {
+    "project.ipynb": "5d8f51b1449cfeb74d7e9321400caa09bebd4b933a7d1924f6479c4c5d32fc1a",
+    "analysis.py": "556798a37ac5c689bd06686e62024da83f7e2878e3f8cf8f5724d301e267bfd7",
+    "score.py": "1d9e791a1e492bb552af4bb1808bd7319a17a66a633cc450b58809ec64aec07b",
+    "artifacts/model.joblib": "8d290e72e4a2d4161069d501ccb734ee04943f972f45de1d12bfa9e308ed2c84",
+    "artifacts/metrics.json": "66fa20f8b5e2bf364e0012f18e3d6069c73d149be7adfbf2e1f0857f55a89fa7"
+  },
+  "google_colab_execution": "PENDING",
+  "student_manual_verification": "PENDING"
+}

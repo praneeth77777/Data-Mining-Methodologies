@@ -1,0 +1,105 @@
+[
+  {
+    "project": "01_crisp_dm_telco",
+    "status": "passed",
+    "executed_code_cells": 13,
+    "inline_figures": 3,
+    "script_notebook_parity": true,
+    "embedded_scorer_parity": true,
+    "saved_pipeline_parity": true,
+    "schema_missing_and_invalid_rejected": true,
+    "domain_checks": [
+      "negative tenure/charges",
+      "fractional tenure",
+      "whitespace/missing parity",
+      "shifted queue cap",
+      "stable tie order",
+      "small-batch cap"
+    ],
+    "csv_structure_checks": [
+      "over-wide rejected",
+      "under-wide rejected",
+      "duplicate header rejected",
+      "empty header rejected",
+      "unterminated quote rejected",
+      "valid quoted extra column preserves outputs"
+    ],
+    "checked_hashes": {
+      "project.ipynb": "5d8f51b1449cfeb74d7e9321400caa09bebd4b933a7d1924f6479c4c5d32fc1a",
+      "analysis.py": "556798a37ac5c689bd06686e62024da83f7e2878e3f8cf8f5724d301e267bfd7",
+      "score.py": "1d9e791a1e492bb552af4bb1808bd7319a17a66a633cc450b58809ec64aec07b",
+      "artifacts/model.joblib": "8d290e72e4a2d4161069d501ccb734ee04943f972f45de1d12bfa9e308ed2c84",
+      "artifacts/metrics.json": "66fa20f8b5e2bf364e0012f18e3d6069c73d149be7adfbf2e1f0857f55a89fa7"
+    },
+    "google_colab_execution": "PENDING",
+    "student_manual_verification": "PENDING"
+  },
+  {
+    "project": "02_semma_wine",
+    "status": "passed",
+    "executed_code_cells": 13,
+    "inline_figures": 4,
+    "script_notebook_parity": true,
+    "embedded_scorer_parity": true,
+    "saved_pipeline_parity": true,
+    "schema_missing_and_invalid_rejected": true,
+    "domain_checks": [
+      "negative concentrations",
+      "positive density",
+      "pH demo range",
+      "alcohol percent range",
+      "all-missing rejected",
+      "partial missing counted"
+    ],
+    "csv_structure_checks": [
+      "over-wide rejected",
+      "under-wide rejected",
+      "duplicate header rejected",
+      "empty header rejected",
+      "unterminated quote rejected",
+      "valid quoted extra column preserves outputs"
+    ],
+    "checked_hashes": {
+      "project.ipynb": "ea18d8c6b8f3b40d8ab94b15ebc9eeb9bf54942bc105330af66075adf90dab24",
+      "analysis.py": "22d226b76b332179b8a58c1e66c14c9d70fe164952908d5fa269c7870b2477cf",
+      "score.py": "1d9e791a1e492bb552af4bb1808bd7319a17a66a633cc450b58809ec64aec07b",
+      "artifacts/model.joblib": "9541bb7e8fbc6ce607bec7f031ac4d329633675669db683bd619c498863a5661",
+      "artifacts/metrics.json": "453cbcc35c6f91257b62f7b699df8acd8b62065dddb70164bb5331551061b1db"
+    },
+    "google_colab_execution": "PENDING",
+    "student_manual_verification": "PENDING"
+  },
+  {
+    "project": "03_kdd_mall",
+    "status": "passed",
+    "executed_code_cells": 14,
+    "inline_figures": 3,
+    "script_notebook_parity": true,
+    "embedded_scorer_parity": true,
+    "saved_pipeline_parity": true,
+    "schema_missing_and_invalid_rejected": true,
+    "domain_checks": [
+      "income and spending bounds",
+      "missing rejected",
+      "30 null outputs",
+      "200 assignment rows"
+    ],
+    "csv_structure_checks": [
+      "over-wide rejected",
+      "under-wide rejected",
+      "duplicate header rejected",
+      "empty header rejected",
+      "unterminated quote rejected",
+      "valid quoted extra column preserves outputs"
+    ],
+    "checked_hashes": {
+      "project.ipynb": "b52e94be6ce8b17c4a69c07f489f9c28282d5eee50c6cce3285e802f06f54e1f",
+      "analysis.py": "85cea3f9091f682c4383fe3d95fe7a7339f16e7de180c5b0286b50a8c0809b81",
+      "score.py": "1d9e791a1e492bb552af4bb1808bd7319a17a66a633cc450b58809ec64aec07b",
+      "artifacts/model.joblib": "92730b10cc4185f29d7767fb0b5039bd89274107c0e68bbb89e3340b037cdc0d",
+      "artifacts/metrics.json": "c5d19053d9dc4142e6179d8f2c9a86c5d709150d93fbbbb5b29916f41acc9268"
+    },
+    "google_colab_execution": "PENDING",
+    "student_manual_verification": "PENDING"
+  }
+]
