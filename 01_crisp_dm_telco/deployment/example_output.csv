@@ -1,6 +1,6 @@
 input_row,churn_probability,above_frozen_threshold,contact_queue,numeric_missing_count
-0,0.1123848622374821,False,False,0
-1,0.21478028838948185,False,False,0
-2,0.20540773913214824,False,False,0
-3,0.5366691175892054,True,True,0
-4,0.06032074308884919,False,False,0
+0,0.11489744263706832,False,False,0
+1,0.2148290814072892,False,False,0
+2,0.20229710290527472,False,False,0
+3,0.5421404644958123,True,True,0
+4,0.06003630450871168,False,False,0

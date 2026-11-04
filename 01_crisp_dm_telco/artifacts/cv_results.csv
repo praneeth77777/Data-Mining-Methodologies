@@ -3,6 +3,6 @@ params,mean_test_score,std_test_score,rank_test_score
 "{'model': LogisticRegression(max_iter=1500, random_state=42), 'model__C': 1}",0.6638371711601877,0.03688115812112732,3
 "{'model': LogisticRegression(max_iter=1500, random_state=42), 'model__C': 10}",0.6630723648733051,0.03569871368649574,4
 "{'model': RandomForestClassifier(max_depth=10, n_estimators=120, n_jobs=1,
-                       random_state=42), 'model__min_samples_leaf': 5}",0.6644671517319876,0.027284703409920032,2
+                       random_state=42), 'model__min_samples_leaf': 5}",0.6640792722652524,0.027006439330617124,2
 "{'model': RandomForestClassifier(max_depth=10, n_estimators=120, n_jobs=1,
-                       random_state=42), 'model__min_samples_leaf': 15}",0.6693924002792501,0.03212835499283437,1
+                       random_state=42), 'model__min_samples_leaf': 15}",0.6702001736455793,0.03155296393266483,1

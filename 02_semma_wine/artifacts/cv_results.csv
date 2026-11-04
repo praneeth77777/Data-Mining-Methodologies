@@ -1,8 +1,8 @@
 params,mean_test_score,std_test_score,rank_test_score
-"{'model': Ridge(), 'model__alpha': 0.1}",-0.5061212420627483,0.021163263653533854,7
-"{'model': Ridge(), 'model__alpha': 1}",-0.5059684942625556,0.021232633037389086,6
-"{'model': Ridge(), 'model__alpha': 10}",-0.5048290607865881,0.02174950377497759,5
-"{'model': RandomForestRegressor(n_estimators=160, n_jobs=1, random_state=42), 'model__max_depth': 8, 'model__min_samples_leaf': 2}",-0.48572604354637194,0.015919834381581337,4
-"{'model': RandomForestRegressor(n_estimators=160, n_jobs=1, random_state=42), 'model__max_depth': 8, 'model__min_samples_leaf': 5}",-0.48499501508030796,0.014835022670465308,2
-"{'model': RandomForestRegressor(n_estimators=160, n_jobs=1, random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 2}",-0.4832398229938361,0.01688340563211103,1
-"{'model': RandomForestRegressor(n_estimators=160, n_jobs=1, random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 5}",-0.4850232771525798,0.015006129470979507,3
+"{'model': Ridge(), 'model__alpha': 0.1}",-0.4997824272411593,0.010721899884882341,7
+"{'model': Ridge(), 'model__alpha': 1}",-0.4997117525741211,0.01074862568833441,6
+"{'model': Ridge(), 'model__alpha': 10}",-0.49914834672498914,0.01100461816090839,5
+"{'model': RandomForestRegressor(n_estimators=160, n_jobs=1, random_state=42), 'model__max_depth': 8, 'model__min_samples_leaf': 2}",-0.48912299016157007,0.011430374791523586,3
+"{'model': RandomForestRegressor(n_estimators=160, n_jobs=1, random_state=42), 'model__max_depth': 8, 'model__min_samples_leaf': 5}",-0.48917629982466826,0.010616269614123408,4
+"{'model': RandomForestRegressor(n_estimators=160, n_jobs=1, random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 2}",-0.48688024144914005,0.010797019338687684,1
+"{'model': RandomForestRegressor(n_estimators=160, n_jobs=1, random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 5}",-0.4874303844299368,0.010517369682740328,2
