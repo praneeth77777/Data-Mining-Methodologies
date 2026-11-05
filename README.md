@@ -18,12 +18,20 @@ Three distinct datasets, three complete analytical workflows, and separately doc
 | SEMMA | [Predicting Wine Quality with SEMMA](https://medium.com/@praneeth.kalangi/predicting-wine-quality-with-semma-ce90d3ed4dfc) |
 | KDD | [Discovering Customer Segments with KDD](https://medium.com/@praneeth.kalangi/discovering-customer-segments-with-kdd-df85bd3f5a1f) |
 
+## YouTube walkthroughs
+
+| Methodology | Video |
+|---|---|
+| CRISP-DM | [Telco Customer Churn with CRISP-DM](https://youtu.be/84_9Z5d8IKU) |
+| SEMMA | [Predicting Wine Quality with SEMMA](https://youtu.be/datXA3cvm4I) |
+| KDD | [Discovering Customer Segments with KDD](https://youtu.be/kvZX84lX0y4) |
+
 ## Read and run
 
 1. Read a project's REPORT.md for every phase, subtask mapping, assumptions, results and deployment plan.
 2. Open project.ipynb in Google Colab and Run all in a fresh Python 3.11+ CPU runtime. Save your executed copy. No GPU is needed.
 3. Complete MANUAL_VERIFICATION.md personally and obtain the required real Claude/GPT-5 critiques using reviews/EXTERNAL_CRITIC_PROMPTS.md.
-4. See the Medium article links above and record your own video using VIDEO_WALKTHROUGH.md.
+4. See the Medium articles and YouTube walkthroughs linked above.
 5. Upload this folder structure to your GitHub repository and fill in SUBMISSION_LINKS.md.
 
 The notebooks include full analysis and a self-contained batch scorer. No repository URL is required for the standalone Colab workflow. Kaggle CSV downloads are checked against fixed source hashes. If a direct download is blocked, manually obtain the named CSV and upload it into `cmpe_project_runs/<project-directory>/data/` under the current working directory, using the exact path in the acquisition error. Rerun from the acquisition cell. A source version change must be reviewed rather than silently accepted.
